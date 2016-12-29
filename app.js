@@ -101,6 +101,7 @@
         var left = current.left + ((target.left - current.left) * 0.03);
         var verticalMove = ((target.top - current.top) * 0.03);
         var top = current.top + verticalMove;
+        console.log(verticalMove);
         if (verticalMove > 10) {
           opacity = 0.1 + ((verticalMove - 10) / 90) * 0.9;
         }
